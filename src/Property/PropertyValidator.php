@@ -14,6 +14,9 @@ use Exception;
 class PropertyValidator
 {
     /**
+     * Validate that all properties are populated (have values assigned to them). Useful when you're using setter
+     * dependency injection or just want to check if all properties are populated before you use an object.
+     *
      * @param $object
      * @param int|null $filter
      * @param array    $can_be_null
@@ -44,6 +47,9 @@ class PropertyValidator
     }
 
     /**
+     * Validate that a specific set of properties are validated (have values assigned to them). This potentially
+     * includes properties from parents.
+     *
      * @param $object
      * @param array $properties
      *

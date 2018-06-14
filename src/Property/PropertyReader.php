@@ -14,6 +14,9 @@ use ReflectionClass;
 class PropertyReader
 {
     /**
+     * Get names and values of all properties of a class (private, protected and public) from the original class and
+     * all its parents recursively.
+     *
      * @param $object
      * @param int|null $filter
      *
@@ -39,6 +42,8 @@ class PropertyReader
     }
 
     /**
+     * Get properties of a leaf class of the object (their names and values). Properties of parent classes are excluded.
+     *
      * @param $object
      * @param int|null $filter
      *
