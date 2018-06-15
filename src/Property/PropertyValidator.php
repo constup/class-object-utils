@@ -64,19 +64,16 @@ class PropertyValidator
         $class_name = get_class($object);
 
         $all_properties = $property_reader->getPropertiesFromAllParents($object);
-        $all_property_names = [];
-        foreach ($all_properties as $name => $value) {
-            $all_property_names[] = $name;
-        }
+        $all_property_names = array_keys($all_properties);
 
         foreach ($properties as $property) {
-            if (!in_array($property, $all_property_names)) {
-                throw new Exception("Property $property does not belong to $class_name.");
-            }
+        	if (in_array($property,$all_property_names) == false) {
+		        throw new Exception("Property $property does not belong to $class_name.");
+	        }
 
-            if ($all_properties[$property] === null) {
-                throw new Exception("Property $property is null. Did you forget to set it?");
-            }
+	        if ($all_properties[$property] == null) {
+		        throw new Exception("Property $property is null. Did you forget to set it?");
+	        }
         }
     }
 }
