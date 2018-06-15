@@ -6,10 +6,8 @@ language: php
 sudo: false
 
 php:
-    - '7.0'
     - '7.1'
     - '7.2'
-    - nightly
 
 before_install:
     - composer self-update
