@@ -4,3 +4,4 @@ tests/SampleTest.php
 .project
 codeCoverage/
 .php_cs.cache
+var/
