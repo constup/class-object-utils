@@ -1,5 +1,10 @@
 # Class Object Utils
 
+
+![Packagist](https://img.shields.io/packagist/v/constup/class-object-utils.svg)
+![PHP from Packagist](https://img.shields.io/packagist/php-v/constup/class-object-utils.svg)
+
+
 ## Setup
 
 ### Description
