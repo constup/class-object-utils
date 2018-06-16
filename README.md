@@ -1,8 +1,10 @@
 # Class Object Utils
 
 
-![Packagist](https://img.shields.io/packagist/v/constup/class-object-utils.svg)
-![PHP from Packagist](https://img.shields.io/packagist/php-v/constup/class-object-utils.svg)
+[![Build Status](https://travis-ci.org/constup/class-object-utils.svg?branch=master)](https://travis-ci.org/constup/class-object-utils)
+[![Packagist](https://img.shields.io/packagist/v/constup/class-object-utils.svg)](https://packagist.org/packages/constup/class-object-utils)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/constup/class-object-utils.svg)]
+[![Coverage Status](https://coveralls.io/repos/github/constup/class-object-utils/badge.svg?branch=master)](https://coveralls.io/github/constup/class-object-utils?branch=master)
 
 
 ## Setup

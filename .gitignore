@@ -5,3 +5,4 @@ tests/SampleTest.php
 codeCoverage/
 .php_cs.cache
 var/
+/clover.xml
