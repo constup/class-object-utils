@@ -3,8 +3,10 @@
 
 [![Build Status](https://travis-ci.org/constup/class-object-utils.svg?branch=master)](https://travis-ci.org/constup/class-object-utils)
 [![Packagist](https://img.shields.io/packagist/v/constup/class-object-utils.svg)](https://packagist.org/packages/constup/class-object-utils)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/constup/class-object-utils.svg)]
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/constup/class-object-utils.svg)](https://packagist.org/packages/constup/class-object-utils)
 [![Coverage Status](https://coveralls.io/repos/github/constup/class-object-utils/badge.svg?branch=master)](https://coveralls.io/github/constup/class-object-utils?branch=master)
+[![Codecov](https://img.shields.io/codecov/c/github/constup/class-object-utils.svg)](https://codecov.io/gh/constup/class-object-utils)
+[![license](https://img.shields.io/github/license/constup/class-object-utils.svg)](https://github.com/constup/class-object-utils/blob/master/LICENSE)
 
 
 ## Setup
