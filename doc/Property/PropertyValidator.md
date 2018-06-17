@@ -47,7 +47,7 @@ $result = $property_validator
 
 ## `validatePropertiesArePopulated`
 
-Validate that a specific set of properties are validated (have values
+Validate that a specific set of properties are populated (have values
 assigned to them). This potentially includes properties from parents.
 
 *Parameters*

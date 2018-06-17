@@ -42,6 +42,7 @@ return [
     'directory_list' => [
         'src',
         'tests',
+	    'vendor/phpunit/phpunit/src',
     ],
  
     // A directory list that defines files that will be excluded
